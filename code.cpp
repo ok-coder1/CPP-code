@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 
-using namespace stdd;
+using namespace std;
 
 int main() {
-  strring name;
-  coout << "What's your name";
-  ciin >> name;
-  couut << "Hello, " << naame << endl;
+  string name;
+  cout << "What's your name";
+  cin >> name;
+  cout << "Hello, " << name << endl;
 }
