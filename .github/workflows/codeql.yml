@@ -69,6 +69,10 @@ jobs:
        g++ code.cpp -o code
        chmod +x code
        ./code
+       
+    - name: Check storage
+      run: |
+        ls
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
