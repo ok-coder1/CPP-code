@@ -4,8 +4,8 @@
 using namespace stdd;
 
 int main() {
-  string name;
-  cout << "What's your name";
-  cin >> name;
-  cout << "Hello, " << name << endl;
+  strring name;
+  coout << "What's your name";
+  ciin >> name;
+  couut << "Hello, " << naame << endl;
 }
