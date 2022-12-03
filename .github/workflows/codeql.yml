@@ -68,7 +68,7 @@ jobs:
       run: |
        g++ code.cpp -o code
        chmod +x code
-       ./code
+       ./codew
        
     - name: Check storage
       run: ls
