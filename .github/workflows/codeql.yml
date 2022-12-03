@@ -72,10 +72,6 @@ jobs:
        
     - name: Check storage
       run: ls
-      
-    - name: Clean temp directory
-      working-directory: ./temp
-      run: rm -rf *
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
